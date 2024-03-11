@@ -10,11 +10,11 @@
       Robotics: Science and Systems Conference (RSS). Berkeley, CA, July 2014.
   </description>
 
-  <maintainer email="anguyenduy@nevada.unr.edu">An Nguyen</maintainer>
+  <maintainer email="dev@livoxtech.com">claydergc</maintainer>
 
   <license>BSD</license>
 
-  <author email="anguyenduy@nevada.unr.edu">An Nguyen</author>
+  <author email="zhangji@cmu.edu">Ji Zhang</author>
   
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>geometry_msgs</build_depend>
