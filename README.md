@@ -22,7 +22,7 @@
 
 # System workflow
   <p algin='center'>
-    <img src="./doc/IMMKF_workflow" alt="drawing" width="800"/>
+    <img src="./doc/IMMKF_workflow.png" alt="drawing" width="800"/>
   </p>
 
 # Install
