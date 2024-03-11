@@ -64,8 +64,9 @@ Use the following commands to download and build the package:
 </p>
 
 # Related Package
-[LiDAR-imu calibration](https://github.com/hku-mars/LiDAR_IMU_Init)
-[Fast-Lio2](https://github.com/hku-mars/FAST_LIO?tab=readme-ov-file)
+- [LiDAR-imu calibration](https://github.com/hku-mars/LiDAR_IMU_Init)
+
+- [Fast-Lio2](https://github.com/hku-mars/FAST_LIO?tab=readme-ov-file)
 
 # Acknowledgement
 - IMM_LIO is based on the FAST_LIO2 (Wei Xu, Yixi Cai, Dongjiao He, Jiarong Lin, Fu Zhang, Fast-Lio2: Fast Direct LiDAR-inertial Odometry)
