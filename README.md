@@ -46,5 +46,5 @@ Use the following commands to download and build the package:
 ```
 # Prepare Rosbag for running (Velodyne or Ouster)
 1. Setup LiDAR and IMU before run. To achieve optimal performance, it is essential to calibrate and synchronize both the LiDAR and IMU.
-2. Edit the file ``` config/velodyne.yaml ``` or ``` config/ouster64.yaml ``` (for Ouster) to set the parameters.
-3. 
+2. Edit the file ``` config/velodyne.yaml ``` or ``` config/ouster64.yaml ``` to set the parameters.
+3. The point cloud topic is: "/velodyne_points" (Velodyne) or "/os1_cloud_node/points" (Ouster64)
