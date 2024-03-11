@@ -25,7 +25,7 @@
 All the variables are described in detail in the [paper](https://drive.google.com/file/d/1a9Zo1jM7xKDSR00Fket8Gw3VihPOR3gR/view?usp=sharing)
 
 <p align='center'>
-    <img src="./doc/IMMKF_workflow.png" alt="drawing" width="450"/>
+    <img src="./doc/IMMKF_workflow.png" alt="drawing" width="700"/>
 </p>
 We have designed a system that supports multiple filters, making it suitable for real-time applications. This package introduces several new features:
 
