@@ -16,9 +16,10 @@
 - Handheld device
 - Ground Rover Robot
 
-  <p algin='center'>
-    <img src="./doc/Lio-setup.png" alt="drawing" width="500"/>
-  </p>
+
+<p align='center'>
+    <img src="./doc/Lio-setup.png" alt="drawing" width="350"/>
+</p>
 
 # System workflow
 All the variables are described in detail in the [paper](https://drive.google.com/file/d/1a9Zo1jM7xKDSR00Fket8Gw3VihPOR3gR/view?usp=sharing)
