@@ -43,5 +43,6 @@ Use the following commands to download and build the package:
     cd ../..
     source devel/setup.bash
     catkin_make
-
 ```
+# Noted:
+- **LiDAR-IMU calibration** Please ensure that both the LiDAR and IMU are calibrated and synchronized, as this is crucial
