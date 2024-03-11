@@ -19,3 +19,10 @@
   <p algin='center'>
     <img src="./doc/Lio-setup.png" alt="drawing" width="500"/>
   </p>
+
+# System workflow
+  <p algin='center'>
+    <img src="./doc/IMMKF_workflow" alt="drawing" width="800"/>
+  </p>
+
+# Install
