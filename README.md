@@ -34,3 +34,14 @@ We have designed a system that supports multiple filters, making it suitable for
 
 
 # Install
+Use the following commands to download and build the package:
+
+```
+    cd ~/caktin_ws/src    // caktin_ws or your ROS Dir
+    git clone [https://github.com/hku-mars/FAST_LIO.git](https://github.com/aralab-unr/IMM_LIO.git)
+    cd IMM_LIO
+    cd ../..
+    source devel/setup.bash
+    catkin_make
+
+```
