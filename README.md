@@ -64,7 +64,7 @@ Use the following commands to download and build the package:
 </p>
 
 <p align='center'>
-    <img src="./doc/urban.gif" alt="drawing" width="500"/>
+    <img src="./doc/urban.gif" alt="drawing" width="600"/>
 </p>
 # Related Package
 - [LiDAR-IMU calibration](https://github.com/hku-mars/LiDAR_IMU_Init)
