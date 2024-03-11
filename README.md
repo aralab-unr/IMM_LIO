@@ -21,6 +21,8 @@
   </p>
 
 # System workflow
+All the variables are described in detail in the [paper](https://drive.google.com/file/d/1a9Zo1jM7xKDSR00Fket8Gw3VihPOR3gR/view?usp=sharing)
+
   <p algin='center'>
     <img src="./doc/IMMKF_workflow.png" alt="drawing" width="800"/>
   </p>
