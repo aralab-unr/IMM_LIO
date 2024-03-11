@@ -17,5 +17,5 @@
 - Ground Rover Robot
 
   <p algin='center'>
-    <img src="./doc/Lio-setup.png" alt="drawing" width="300"/>
+    <img src="./doc/Lio-setup.png" alt="drawing" width="500"/>
   </p>
