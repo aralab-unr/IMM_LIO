@@ -44,5 +44,6 @@ Use the following commands to download and build the package:
     source devel/setup.bash
     catkin_make
 ```
-# Noted:
-- **LiDAR-IMU calibration:** Please ensure that both the LiDAR and IMU are calibrated and synchronized, as this is crucial
+# Prepare Rosbag for running (Velodyne or Ouster)
+1. Setup LiDAR and IMU before run. To achieve optimal performance, it is essential to calibrate and synchronize both the LiDAR and IMU.
+2. Edit the file ``` config/ouster64.yaml ``` or ``` config/velodyne.yaml ```
