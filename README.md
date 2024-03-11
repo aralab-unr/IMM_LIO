@@ -63,3 +63,8 @@ Use the following commands to download and build the package:
     <img src="./doc/UrBan_IMM.png" alt="drawing" width="200"/>
 </p>
 
+# Acknowledgement
+- IMM_LIO is based on the FAST_LIO2 (Wei Xu, Yixi Cai, Dongjiao He, Jiarong Lin, Fu Zhang, Fast-Lio2: Fast Direct LiDAR-inertial Odometry)
+
+# Contact
+- [An Nguyen](mailto:anguyenduy@nevada.unr.edu)
