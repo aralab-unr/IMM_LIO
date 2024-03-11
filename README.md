@@ -57,6 +57,6 @@ Use the following commands to download and build the package:
 
   <p algin='center'>
     <img src="./doc/SEM_IMM.png" alt="drawing" width="500"/>
-    <img src="./doc/UrBan_IMM.png" alt="drawing" width="500"/>
+    <img src="./doc/UrBan_IMM.png" alt="drawing" width="400"/>
   </p>
 
