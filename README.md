@@ -28,7 +28,7 @@ All the variables are described in detail in the [paper](https://drive.google.co
   </p>
 We have designed a system that supports multiple filters, making it suitable for real-time applications. This package introduces several new features:
 
-1. Support external for 9-axis, and 6-axis IMU.
+1. Support external for 9-axis, and internal 6-axis IMU.
 2. The 'State Prediction' module produces multiple estimations, thanks to the use of multiple models. This ensures consistent performance even if one model degrades.
 3. The 'Model Probability' module calculates the likelihood of LiDAR measurements with respect to the laser points estimated by each model in IMM. This module contributes to the final estimation and reduces computational complexity compared to direct non-linear filters.
 
@@ -46,4 +46,5 @@ Use the following commands to download and build the package:
 ```
 # Prepare Rosbag for running (Velodyne or Ouster)
 1. Setup LiDAR and IMU before run. To achieve optimal performance, it is essential to calibrate and synchronize both the LiDAR and IMU.
-2. Edit the file ``` config/ouster64.yaml ``` or ``` config/velodyne.yaml ```
+2. Edit the file ``` config/velodyne.yaml ``` or ``` config/ouster64.yaml ``` (for Ouster) to set the parameters.
+3. 
