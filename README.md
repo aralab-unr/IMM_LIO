@@ -18,7 +18,7 @@
 
 
 <p align='center'>
-    <img src="./doc/Lio-setup.png" alt="drawing" width="350"/>
+    <img src="./doc/Lio-setup.png" alt="drawing" width="450"/>
 </p>
 
 # System workflow
