@@ -45,4 +45,4 @@ Use the following commands to download and build the package:
     catkin_make
 ```
 # Noted:
-- **LiDAR-IMU calibration** Please ensure that both the LiDAR and IMU are calibrated and synchronized, as this is crucial
+- **LiDAR-IMU calibration:** Please ensure that both the LiDAR and IMU are calibrated and synchronized, as this is crucial
