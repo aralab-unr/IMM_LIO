@@ -56,8 +56,7 @@ Use the following commands to download and build the package:
 8. Download [sample dataset](https://drive.google.com/drive/folders/1Bxe2sPL9lQXFsh6_xb5OAr8OxKFyTGON?usp=drive_link) which are collected in UNR campuse to test the package. In these dataset, the point cloud topic is ``` "/velodyne_points"```, and the imu topic need to be set to ``` "zed/zed_nodelet/imu/data"```
 9. Download Urban Hong Kong dataset [medium-urban](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?e=1&dl=0) [deep-urban](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?e=1&dl=0). Set the imu topic to ```"/imu/data" ```.
 
-  <p algin='center'>
-    <img src="./doc/SEM_IMM.png" alt="drawing" width="500"/>
-    <img src="./doc/UrBan_IMM.png" alt="drawing" width="400"/>
-  </p>
+<p align='center'>
+    <img src="./doc/SEM_IMM.png" alt="drawing" width="300"/>
+</p>
 
