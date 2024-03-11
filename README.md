@@ -18,7 +18,7 @@
 
 
 <p align='center'>
-    <img src="./doc/Lio-setup.png" alt="drawing" width="450"/>
+    <img src="./doc/Lio-setup.png" alt="drawing" width="400"/>
 </p>
 
 # System workflow
@@ -57,9 +57,9 @@ Use the following commands to download and build the package:
 9. Download Urban Hong Kong dataset [medium-urban](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?e=1&dl=0) [deep-urban](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?e=1&dl=0). Set the imu topic to ```"/imu/data" ```.
 
 <p align='center'>
-    <img src="./doc/SEM_GT.png" alt="drawing" width="300"/>
-    <img src="./doc/SEM_IMM.png" alt="drawing" width="300"/>
-    <img src="./doc/Urban-GT.png" alt="drawing" width="300"/>
-    <img src="./doc/UrBan_IMM.png" alt="drawing" width="300"/>
+    <img src="./doc/SEM_GT.png" alt="drawing" width="250"/>
+    <img src="./doc/SEM_IMM.png" alt="drawing" width="250"/>
+    <img src="./doc/Urban-GT.png" alt="drawing" width="250"/>
+    <img src="./doc/UrBan_IMM.png" alt="drawing" width="250"/>
 </p>
 
