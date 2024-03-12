@@ -43,6 +43,7 @@ We have designed a system that supports multiple filters, making it suitable for
 Use the following commands to download and build the package: (The code is implemented in ROS1)
 
 ```
+    mkdir catkin_ws
     cd ~/caktin_ws/src    // caktin_ws or your ROS Dir
     git clone https://github.com/aralab-unr/IMM_LIO.git
     cd IMM_LIO
@@ -51,6 +52,8 @@ Use the following commands to download and build the package: (The code is imple
     catkin_make
 ```
 # Prepare Rosbag for running 
+Requires an input LiDAR point cloud of type ```sensor_msgs::PointCloud2``` and IMU input of type ```sensor_msgs::IMU```
+
 1. Setup LiDAR and IMU before run. To achieve optimal performance, it is essential to calibrate and synchronize both the LiDAR and IMU.
 2. Edit the file ``` config/velodyne.yaml ``` to set the parameters.
 3. Set the LiDAR and IMU topic at: ```lid_topic```, ```imu_topic```
