@@ -66,8 +66,8 @@ Use the following commands to download and build the package:
 </p>
 
 <p align='center'>
-    <img src="./doc/UNR_SEM.gif" alt="drawing" width="400"/>
-    <img src="./doc/urban.gif" alt="drawing" width="400"/>
+    <img src="./doc/UNR_SEM.gif" alt="drawing" width="450"/>
+    <img src="./doc/urban.gif" alt="drawing" width="450"/>
 </p>
 
 Depending on the number of models and their characteristics, the users can modify the transition matrix of the IMM model (p_ij) in the 'IMM_lio.cpp' file. The default values used in this work are [0.9, 0.01, 0.09; 0.025, 0.75, 0.225; 0.075, 0.175, 0.75]. Ensure that the sum of each row equals 1
