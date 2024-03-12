@@ -7,11 +7,11 @@
 
 # Required Installations
 - [Ubuntu 20.04](https://releases.ubuntu.com/focal/)
-- [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)
+- [ROS](http://wiki.ros.org/noetic/Installation/Ubuntu) (Tested with the Noetic)
 - [PCL >= 1.8](https://pointclouds.org/downloads/)
 - [Eigen >= 3.3.4](http://eigen.tuxfamily.org/index.php?title=Main_Page)
 - [ZED SDK >= 3.5](https://www.stereolabs.com/developers)
-- [CUDA](https://developer.nvidia.com/cuda-downloads)
+- [CUDA](https://developer.nvidia.com/cuda-downloads) (Recommend to use CUDA toolkit >= 11 for Ubuntu 20.04)
 
 # Hardware
 - Velodyne PUCK Lite
