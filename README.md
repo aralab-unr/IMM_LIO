@@ -17,8 +17,8 @@ The framework has been tested with ROS Noetic and Ubuntu 20.04. The following co
 - [CUDA](https://developer.nvidia.com/cuda-downloads) (Recommend to use CUDA toolkit >= 11 for Ubuntu 20.04)
 
 # Hardware
-- Velodyne PUCK Lite
-- Zedm camera
+- [Velodyne PUCK Lite](https://velodynelidar.com/products/puck-lite/) (360 HFOV, +15 degree VFOV, 100m range, 10Hz) 
+- [Zedm camera](https://www.stereolabs.com/developers/release)
 - Handheld device
 - Ground Rover Robot
 
