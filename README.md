@@ -37,7 +37,7 @@ We have designed a system that supports multiple filters, making it suitable for
 
 
 # Install
-Use the following commands to download and build the package:
+Use the following commands to download and build the package: (The code is implemented in ROS1)
 
 ```
     cd ~/caktin_ws/src    // caktin_ws or your ROS Dir
@@ -47,9 +47,9 @@ Use the following commands to download and build the package:
     source devel/setup.bash
     catkin_make
 ```
-# Prepare Rosbag for running
+# Prepare Rosbag for running 
 1. Setup LiDAR and IMU before run. To achieve optimal performance, it is essential to calibrate and synchronize both the LiDAR and IMU.
-2. Edit the file ``` config/velodyne.yaml ``` or ``` config/ouster64.yaml ``` to set the parameters.
+2. Edit the file ``` config/velodyne.yaml ``` to set the parameters.
 3. Set the LiDAR and IMU topic at: ```lid_topic```, ```imu_topic```
 4. Change the LiDAR, and IMU extrinsic calibration parameters: ``` extrinsic_R ``` , and ``` extrinsic_T ``` .
 5. Set the IMU as base frame
@@ -82,3 +82,4 @@ Depending on the number of models and their characteristics, the users can modif
 
 # Contact
 - [An Nguyen](mailto:anguyenduy@nevada.unr.edu)
+- [Hung La](mailto:hla@unr.edu)
