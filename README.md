@@ -20,7 +20,7 @@
 - Ground Rover Robot
 
 <p align='center'>
-    <img src="./doc/Lio-setup.png" alt="drawing" width="450"/>
+    <img src="./doc/Lio-setup.png" alt="drawing" width="600"/>
 </p>
 
 # System workflow
