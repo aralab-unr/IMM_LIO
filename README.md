@@ -63,17 +63,13 @@ Requires an input LiDAR point cloud of type ```sensor_msgs::PointCloud2``` and I
 # Run the package
 For Velodyne type
 1. Run the launch file:
-
-   ```
-    roslaunch imm_lio velodyne.launch
 ```
+    roslaunch imm_lio velodyne.launch
 
 2. Play existing bag files:
-
-
-   ```
-    rosbag play your-file.bag
 ```
+    rosbag play your-file.bag
+
 3. Download [sample dataset](https://drive.google.com/drive/folders/1Bxe2sPL9lQXFsh6_xb5OAr8OxKFyTGON?usp=drive_link) which are collected in UNR campuse to test the package. In these dataset, the point cloud topic is ``` "/velodyne_points"```, and the imu topic need to be set to ``` "zed/zed_nodelet/imu/data"```
 4. Download Urban Hong Kong dataset [medium-urban](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?e=1&dl=0) [deep-urban](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?e=1&dl=0). Set the imu topic to ```"/imu/data" ```.
 
