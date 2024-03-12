@@ -58,11 +58,20 @@ Requires an input LiDAR point cloud of type ```sensor_msgs::PointCloud2``` and I
 2. Edit the file ``` config/velodyne.yaml ``` to set the parameters.
 3. Set the LiDAR and IMU topic at: ```lid_topic```, ```imu_topic```
 4. Change the LiDAR, and IMU extrinsic calibration parameters: ``` extrinsic_R ``` , and ``` extrinsic_T ``` .
-5. Set the IMU as base frame
-6. Run the launch file: ``` roslaunch imm_lio velodyne.launch ```
-7. Play existing bag files: ``` rosbag play your-file.bag ```
-8. Download [sample dataset](https://drive.google.com/drive/folders/1Bxe2sPL9lQXFsh6_xb5OAr8OxKFyTGON?usp=drive_link) which are collected in UNR campuse to test the package. In these dataset, the point cloud topic is ``` "/velodyne_points"```, and the imu topic need to be set to ``` "zed/zed_nodelet/imu/data"```
-9. Download Urban Hong Kong dataset [medium-urban](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?e=1&dl=0) [deep-urban](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?e=1&dl=0). Set the imu topic to ```"/imu/data" ```.
+5. Set the IMU as base frame.
+
+# Run the package
+1. Run the launch file:
+ ```
+roslaunch imm_lio velodyne.launch
+```.
+3. Play existing bag files:
+```
+rosbag play your-file.bag
+
+```.
+4. Download [sample dataset](https://drive.google.com/drive/folders/1Bxe2sPL9lQXFsh6_xb5OAr8OxKFyTGON?usp=drive_link) which are collected in UNR campuse to test the package. In these dataset, the point cloud topic is ``` "/velodyne_points"```, and the imu topic need to be set to ``` "zed/zed_nodelet/imu/data"```
+5. Download Urban Hong Kong dataset [medium-urban](https://www.dropbox.com/s/mit5v1yo8pzh9xq/UrbanNav-HK_TST-20210517_sensors.bag?e=1&dl=0) [deep-urban](https://www.dropbox.com/s/1g3dllvdrgihkij/UrbanNav-HK_Whampoa-20210521_sensors.bag?e=1&dl=0). Set the imu topic to ```"/imu/data" ```.
 
 <p align='center'>
     <img src="./doc/SEM_GT.png" alt="drawing" width="200"/>
@@ -72,8 +81,8 @@ Requires an input LiDAR point cloud of type ```sensor_msgs::PointCloud2``` and I
 </p>
 
 <p align='center'>
-    <img src="./doc/UNR_SEM.gif" alt="drawing" width="450"/>
-    <img src="./doc/urban.gif" alt="drawing" width="450"/>
+    <img src="./doc/UNR_SEM.gif" alt="drawing" width="400"/>
+    <img src="./doc/urban.gif" alt="drawing" width="400"/>
 </p>
 
 Depending on the number of models and their characteristics, the users can modify the transition matrix of the IMM model (p_ij) in the 'IMM_lio.cpp' file. The default values used in this work are [0.9, 0.01, 0.09; 0.025, 0.75, 0.225; 0.075, 0.175, 0.75]. Ensure that the sum of each row equals 1
