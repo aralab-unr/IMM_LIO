@@ -5,9 +5,12 @@
     <img src="./doc/New_college.gif" alt="drawing" width="800"/>
 </p>
 
-# Required Installations
+# Dependencies
+The framework has been tested with ROS Noetic and Ubuntu 20.04. The following configuration, along with the required dependencies, has been verified for compatibility:
+
 - [Ubuntu 20.04](https://releases.ubuntu.com/focal/)
-- [ROS](http://wiki.ros.org/noetic/Installation/Ubuntu) (Tested with the Noetic)
+- [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu) (```roscpp```, ```std_msgs```, ```sensor_msgs```, ```geometry_msgs```)
+- [C++ 14]
 - [PCL >= 1.8](https://pointclouds.org/downloads/)
 - [Eigen >= 3.3.4](http://eigen.tuxfamily.org/index.php?title=Main_Page)
 - [ZED SDK >= 3.5](https://www.stereolabs.com/developers)
@@ -78,7 +81,11 @@ Depending on the number of models and their characteristics, the users can modif
 - [Fast-LIO2](https://github.com/hku-mars/FAST_LIO?tab=readme-ov-file)
 
 # Acknowledgement
-- IMM_LIO is based on the FAST_LIO2 (Wei Xu, Yixi Cai, Dongjiao He, Jiarong Lin, Fu Zhang, Fast-Lio2: Fast Direct LiDAR-inertial Odometry)
+We thank the authors of Fast-LIO2 and [LiDAR-IMU calibration](https://github.com/hku-mars/LiDAR_IMU_Init) for providing open-source packages:
+
+- Xu, W., Cai, Y., He, D., Lin, J., & Zhang, F. (2022). Fast-lio2: Fast direct lidar-inertial odometry. IEEE Transactions on Robotics, 38(4), 2053-2073.
+
+- F. Zhu, Y. Ren and F. Zhang, "Robust Real-time LiDAR-inertial Initialization," 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Kyoto, Japan, 2022, pp. 3948-3955, doi: 10.1109/IROS47612.2022.9982225.
 
 # Contact
 - [An Nguyen](mailto:anguyenduy@nevada.unr.edu)
