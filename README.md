@@ -15,10 +15,9 @@
 
 # Hardware
 - Velodyne PUCK Lite
-- Zed-m camera
+- Zedm camera
 - Handheld device
 - Ground Rover Robot
-
 
 <p align='center'>
     <img src="./doc/Lio-setup.png" alt="drawing" width="450"/>
@@ -69,6 +68,8 @@ Use the following commands to download and build the package:
 <p align='center'>
     <img src="./doc/urban.gif" alt="drawing" width="600"/>
 </p>
+
+Depending on the number of models and their characteristics, the users can modify the transition matrix of the IMM model (p_ij) in the 'IMM_lio.cpp' file. The default values used in this work are [0.9, 0.01, 0.09; 0.025, 0.75, 0.225; 0.075, 0.175, 0.75]. Ensure that the sum of each row equals 1
 
 # Related Package
 - [LiDAR-IMU calibration](https://github.com/hku-mars/LiDAR_IMU_Init)
