@@ -383,11 +383,9 @@ void ImuProcess::UndistortPcl_imm(const MeasureGroup &meas_imm, esekfom::esekf<s
 
   /*** undistort each lidar point (backward propagation) ***/
   if (pcl_out_imm.points.begin() == pcl_out_imm.points.end()) return;
-  // ROS_WARN("debuging");
   auto it_pcl_imm = pcl_out_imm.points.end() - 1;
   for (auto it_kp_imm = IMUpose_imm.end() - 1; it_kp_imm != IMUpose_imm.begin(); it_kp_imm--)
   {
-    // ROS_WARN("Really?");
     auto head_imm = it_kp_imm - 1;
     auto tail_imm = it_kp_imm;
     R_imu_imm<<MAT_FROM_ARRAY(head_imm->rot);
