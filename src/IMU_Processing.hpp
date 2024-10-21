@@ -289,9 +289,6 @@ void ImuProcess::set_acc_bias_cov(const V3D &b_a)
   cov_bias_acc = b_a;
 }
 
-
-
-// void ImuProcess::UndistortPcl_imm(const MeasureGroup &meas_imm, esekfom::esekf<state_ikfom, 12, input_ikfom> &kf_state_imm, PointCloudXYZI &pcl_out_imm)
 void ImuProcess::UndistortPcl_imm(const MeasureGroup &meas_imm, esekfom::esekf<state_ikfom, 12, input_ikfom> &kf_state_imm, PointCloudXYZI &pcl_out_imm, state_ikfom &state_points_imm, Matrix<double, 23, 23>  &P_imm_prev)
 {
   /*** add the imu of the last frame-tail to the of current frame-head ***/
@@ -472,7 +469,6 @@ void ImuProcess::IMU_init_imm(const MeasureGroup &meas_imm, esekfom::esekf<state
 
 }
 
-// void ImuProcess::Process_imm(const MeasureGroup &meas_imm,  esekfom::esekf<state_ikfom, 12, input_ikfom> &kf_state_imm, PointCloudXYZI::Ptr cur_pcl_un_imm)
 void ImuProcess::Process_imm(const MeasureGroup &meas_imm,  esekfom::esekf<state_ikfom, 12, input_ikfom> &kf_state_imm, PointCloudXYZI::Ptr cur_pcl_un_imm, state_ikfom &state_points_imm, Matrix<double, 23, 23>  &P_imm_prev)
 {
   if(meas_imm.imu.empty()) {return;};
@@ -488,8 +484,7 @@ void ImuProcess::Process_imm(const MeasureGroup &meas_imm,  esekfom::esekf<state
     last_imu_imm   = meas_imm.imu.back();
 
     state_ikfom imu_state_imm = kf_state_imm.get_x_imm();
-
-    // ROS_WARN("what's wrong IMM");
+   
     // cout << imu_state_imm << "IMM" << endl;
     if (init_iter_num_imm > MAX_INI_COUNT)
     {
@@ -508,8 +503,6 @@ void ImuProcess::Process_imm(const MeasureGroup &meas_imm,  esekfom::esekf<state
   UndistortPcl_imm(meas_imm, kf_state_imm, *cur_pcl_un_imm, state_points_imm, P_imm_prev);
 }
 
-
-// void ImuProcess::UndistortPcl_ct(const MeasureGroup &meas_ct, esekfom::esekf<state_ikfom, 12, input_ikfom> &kf_state_ct, PointCloudXYZI &pcl_out_ct)
 void ImuProcess::UndistortPcl_ct(const MeasureGroup &meas_ct, esekfom::esekf<state_ikfom, 12, input_ikfom> &kf_state_ct, PointCloudXYZI &pcl_out_ct, state_ikfom &state_points_ct, Matrix<double, 23, 23>  &P_ct_prev)
 {
   /*** add the imu of the last frame-tail to the of current frame-head ***/
@@ -707,7 +700,6 @@ void ImuProcess::IMU_init_ct(const MeasureGroup &meas_ct, esekfom::esekf<state_i
   last_imu_ct = meas_ct.imu.back();
 }
 
-// void ImuProcess::Process_ct(const MeasureGroup &meas_ct,  esekfom::esekf<state_ikfom, 12, input_ikfom> &kf_state_ct, PointCloudXYZI::Ptr cur_pcl_un_ct, state_ikfom &state_points_ct)
 void ImuProcess::Process_ct(const MeasureGroup &meas_ct,  esekfom::esekf<state_ikfom, 12, input_ikfom> &kf_state_ct, PointCloudXYZI::Ptr cur_pcl_un_ct, state_ikfom &state_points_ct, Matrix<double, 23, 23>  &P_ct_prev)
 {
   if(meas_ct.imu.empty()) {return;};
@@ -935,7 +927,6 @@ void ImuProcess::IMU_init_ca(const MeasureGroup &meas_ca, esekfom::esekf<state_i
   last_imu_ca = meas_ca.imu.back();
 }
 
-// void ImuProcess::Process_ca(const MeasureGroup &meas_ca,  esekfom::esekf<state_ikfom, 12, input_ikfom> &kf_state_ca, PointCloudXYZI::Ptr cur_pcl_un_ca, state_ikfom &state_points_ca)
 void ImuProcess::Process_ca(const MeasureGroup &meas_ca,  esekfom::esekf<state_ikfom, 12, input_ikfom> &kf_state_ca, PointCloudXYZI::Ptr cur_pcl_un_ca, state_ikfom &state_points_ca, Matrix<double, 23, 23>  &P_ca_prev)
 {
   if(meas_ca.imu.empty()) {return;};
